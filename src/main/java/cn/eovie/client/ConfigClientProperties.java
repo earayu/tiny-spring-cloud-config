@@ -2,10 +2,12 @@ package cn.eovie.client;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by earayu on 2017/11/13.
  */
+@Configuration
 @ConfigurationProperties("spring.cloud.config")
 public class ConfigClientProperties {
 

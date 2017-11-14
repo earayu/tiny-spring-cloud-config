@@ -18,7 +18,7 @@ public class EnvironmentDTO {
 
     private String label;
 
-    private List<PropertySourceDTO> propertySourceDTOS = new ArrayList<>();
+    private List<PropertySourceDTO> propertySources = new ArrayList<>();
 
     private String version;
 
@@ -47,19 +47,19 @@ public class EnvironmentDTO {
     }
 
     public void add(PropertySourceDTO propertySourceDTO) {
-        this.propertySourceDTOS.add(propertySourceDTO);
+        this.propertySources.add(propertySourceDTO);
     }
 
     public void addAll(List<PropertySourceDTO> propertySourceDTOS) {
-        this.propertySourceDTOS.addAll(propertySourceDTOS);
+        this.propertySources.addAll(propertySourceDTOS);
     }
 
     public void addFirst(PropertySourceDTO propertySourceDTO) {
-        this.propertySourceDTOS.add(0, propertySourceDTO);
+        this.propertySources.add(0, propertySourceDTO);
     }
 
-    public List<PropertySourceDTO> getPropertySourceDTOS() {
-        return propertySourceDTOS;
+    public List<PropertySourceDTO> getPropertySources() {
+        return propertySources;
     }
 
     public String getName() {
@@ -105,7 +105,7 @@ public class EnvironmentDTO {
     @Override
     public String toString() {
         return "EnvironmentDTO [name=" + name + ", profiles=" + Arrays.asList(profiles)
-                + ", label=" + label + ", propertySourceDTOS=" + propertySourceDTOS
+                + ", label=" + label + ", propertySourceDTOS=" + propertySources
                 + ", version=" + version
                 + ", state=" + state + "]";
     }

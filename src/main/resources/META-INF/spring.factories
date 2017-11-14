@@ -1,7 +1,10 @@
-# Auto Configure
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-cn.eovie.client.ConfigClientAutoConfiguration
+## Auto Configure
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#cn.eovie.client.ConfigClientAutoConfiguration,\
+#cn.eovie.client.ConfigClientProperties
 
 # Bootstrap components
 org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+cn.eovie.client.ConfigClientAutoConfiguration,\
+cn.eovie.client.ConfigClientProperties,\
 cn.eovie.client.ConfigServiceBootstrapConfiguration
