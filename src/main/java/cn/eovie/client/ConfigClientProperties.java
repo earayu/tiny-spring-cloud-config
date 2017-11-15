@@ -36,10 +36,6 @@ public class ConfigClientProperties {
      */
     private String uri = "http://localhost:8888";
 
-//    public ConfigClientProperties(Environment environment){
-//    }
-
-
     public boolean isEnabled() {
         return enabled;
     }
