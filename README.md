@@ -28,3 +28,8 @@ spring-cloud-config-client做的工作非常简单，仅仅是从spring-cloud-co
 3. 在springboot启动阶段，PropertySourceBootstrapConfiguration类使用第二部初始化的功能类，从远程服务器拉取配置信息
 
 其中第1和第2部分就是spring-cloud-config-client的源码，第3步是spring-cloud-context的源码。
+
+### 更多
+
+[性感的 Spring Cloud Config](http://eovie.cn/notes/%E6%80%A7%E6%84%9F%E7%9A%84Spring-Cloud-Config)
+[Spring Cloud Config源码简析](http://eovie.cn/notes/Spring-Cloud-Config%E6%BA%90%E7%A0%81%E7%AE%80%E6%9E%90)
