@@ -17,7 +17,7 @@ mvn install
 </dependency>
 ```
 
-说明
+### 说明
 
 spring-cloud-config-client做的工作非常简单，仅仅是从spring-cloud-config-server处通过HTTP获取一些配置信息，它的总体代码也很少。阅读它的源码，主要问题在于它嵌入了spring cloud框架，代码逻辑、执行顺序比较复杂。
 
